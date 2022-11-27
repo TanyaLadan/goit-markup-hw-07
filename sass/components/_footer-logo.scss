@@ -1,0 +1,8 @@
+.footer__logo{
+@include logo (var(--accent));
+display: block;
+    margin-bottom: 20px;
+}
+.logoparts{
+@include logopart (var(--secondary-color));
+}

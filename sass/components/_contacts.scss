@@ -1,0 +1,33 @@
+.container-header .contact-list {
+    display: flex;
+    margin-left: 318px;
+}
+
+.contact-list .contacts {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    transition-property: color, fill;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+
+
+    &:hover,
+    &:focus {color: var(--accent);
+        fill: var(--accent);}
+}
+
+.tel {
+    margin-left: 30px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    fill: var(--secondary-text-color);
+}
